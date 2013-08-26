@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Conway's Game of Life</title>
+        <link rel="stylesheet" href="life.css" />
+        <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="underscore-min.js"></script>
+        <script type="text/javascript" src="fogus.js"></script>
+        <script type="text/javascript" src="game.js"></script>
+        <script type="text/javascript" src="life.js"></script>
+    </head>
+    <body>
+        <div id="world">
+            <button id="go">GO!</button>
+        </div>
+        <aside id="rules">
+            <h2>Conway's Game of Life</h2>
+            <ul>
+                <li>Any live cell with fewer than two live neighbours dies, as if caused by under-population.</li>
+                <li>Any live cell with two or three live neighbours lives on to the next generation.</li>
+                <li>Any live cell with more than three live neighbours dies, as if by overcrowding.</li>
+                <li>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</li>
+                Taken from Wikipedia
+            </ul> 
+            <h2>Rules 'n Stuff</h2>
+            <ol>
+                <li>I'm picking the teams, well my computer is</li>
+                <li>Variables can only be assigned once</li>
+                <li>No object or array mutation in any way</li>
+                <li>Only allowed browser's JS + Underscore.js</li>
+                <li>Can't use: break, case, continue, delete, do, for, in, while, with</li>
+                <li>There are a bunch of Fogus' functions from the book in fogus.js that you can use</li>
+                <li><a href="http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a></li>
+                <li><a href="http://underscorejs.org">Underscore.js Docs</a></li>
+            </ol>
+        </aside>
+    </body>
+</html>
